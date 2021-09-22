@@ -13,8 +13,8 @@ import javax.crypto.spec.SecretKeySpec;
 
 public class NewAES {
 
-    private String key = "!mysecretkey#9^5usdk39d&dlf)03sL";
-    private String iv = "Cfq84/46Qjet3EEQ1HUwSg==";
+    private String key;
+    private String iv;
 
     public NewAES(String key, String iv) {
         this.key = key;
